@@ -1,0 +1,23 @@
+{
+    "name": "jeemusu/notification",
+    "description": "Create notifications available for a single request",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeemusu"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Jeemusu\\Notification": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
